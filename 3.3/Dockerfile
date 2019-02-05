@@ -9,7 +9,7 @@ MAINTAINER Ian Merrick <MerrickI@Cardiff.ac.uk>
 ##############################################################
 
 ENV APP_NAME=augustus
-ENV VERSION=3.2.2
+ENV VERSION=3.3
 ENV DEST=/software/applications/$APP_NAME/
 ENV PATH=$DEST/$VERSION/bin:$PATH
 
