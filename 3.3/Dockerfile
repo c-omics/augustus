@@ -30,7 +30,7 @@ RUN yum install -y \
     yum clean all && \
     rm -rf /var/cache/yum && \
     curl -L http://bioinf.uni-greifswald.de/augustus/binaries/old/augustus-$VERSION.tar.gz | tar xzf - && \
-    cd augustus-$VERSION && \
+    cd augustus* && \
     sed -i 's/^#.*\(SQLITE.*=.*true\)/\1/' common.mk && \
     sed -i 's/^#.*\(COMPGENEPRED.*=.*true\)/\1/' common.mk && \
     make && \
