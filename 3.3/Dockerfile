@@ -3,7 +3,7 @@ MAINTAINER Ian Merrick <MerrickI@Cardiff.ac.uk>
 
 ##############################################################
 # Software:             augustus
-# Software Version:     3.2.2
+# Software Version:     3.3
 # Software Website:     http://bioinf.uni-greifswald.de/augustus
 # Description:          predicts genes in eukaryotic genomic sequences
 ##############################################################
